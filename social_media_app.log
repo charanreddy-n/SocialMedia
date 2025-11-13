@@ -1,0 +1,4 @@
+Nov 08, 2025 6:10:19 PM org.example.service.UserService register
+INFO: Attempting registration for: chethan
+Nov 08, 2025 6:10:19 PM org.example.dao.UserDAOImpl registerUser
+INFO: User registered successfully: chethan

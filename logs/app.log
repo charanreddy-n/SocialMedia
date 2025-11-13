@@ -1,0 +1,826 @@
+2025-11-13 09:51:20,161 INFO  [main] o.e.controller.SocialMediaAppMain : Registration successful
+2025-11-13 09:51:20,175 INFO  [main] o.e.controller.SocialMediaAppMain : Registration successful
+2025-11-13 09:54:56,645 ERROR [main] o.e.controller.SocialMediaAppMain : Username or Email already exists
+2025-11-13 09:54:56,649 WARN  [main] o.e.controller.SocialMediaAppMain : Registration failed
+2025-11-13 09:57:55,502 ERROR [main] o.e.controller.SocialMediaAppMain : Username or Email already exists
+2025-11-13 09:57:55,506 WARN  [main] o.e.controller.SocialMediaAppMain : Registration failed
+2025-11-13 09:57:58,537 ERROR [main] o.e.controller.SocialMediaAppMain : Username or Email already exists
+2025-11-13 09:57:58,540 WARN  [main] o.e.controller.SocialMediaAppMain : Registration failed
+2025-11-13 10:00:13,206 INFO  [main] o.e.controller.SocialMediaAppMain : Registration successful
+2025-11-13 10:00:13,214 INFO  [main] o.e.controller.SocialMediaAppMain : Registration successful
+2025-11-13 10:00:28,889 ERROR [main] o.e.controller.SocialMediaAppMain : Username or Email already exists
+2025-11-13 10:00:28,891 WARN  [main] o.e.controller.SocialMediaAppMain : Registration failed
+2025-11-13 10:02:29,196 INFO  [main] o.e.controller.SocialMediaAppMain : Login successful!
+2025-11-13 10:02:29,203 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid credentials
+2025-11-13 10:02:57,416 INFO  [main] o.e.controller.SocialMediaAppMain :  PROFILE DETAILS 
+2025-11-13 10:04:01,183 INFO  [main] o.e.controller.SocialMediaAppMain :  PROFILE DETAILS 
+2025-11-13 10:06:08,040 INFO  [main] o.e.controller.SocialMediaAppMain : You were not following this user.
+2025-11-13 10:06:08,042 INFO  [main] o.e.controller.SocialMediaAppMain : Could not unfollow user
+2025-11-13 10:06:08,144 INFO  [main] o.e.controller.SocialMediaAppMain : ----- Followers of charan -----
+2025-11-13 10:06:08,145 ERROR [main] o.e.controller.SocialMediaAppMain : No followers yet!
+2025-11-13 10:06:08,248 INFO  [main] o.e.controller.SocialMediaAppMain : Friend request sent successfully!
+2025-11-13 10:06:08,298 INFO  [main] o.e.controller.SocialMediaAppMain : No pending requests
+2025-11-13 10:06:08,345 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid request ID.
+2025-11-13 10:06:08,586 INFO  [main] org.mongodb.driver.client : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "5.1.0"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/23.0.2+7-58"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@4ef2ab73, com.mongodb.Jep395RecordCodecProvider@34be065a, com.mongodb.KotlinCodecProvider@718f805a]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-11-13 10:06:08,609 INFO  [cluster-ClusterId{value='69156038a069d04088061d18', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=27, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=33544200}
+2025-11-13 10:06:08,727 INFO  [main] o.e.controller.SocialMediaAppMain : You liked the post!
+2025-11-13 10:06:08,766 INFO  [main] o.e.controller.SocialMediaAppMain : Author: keshav
+2025-11-13 10:06:08,767 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Sometimes hard times will teach you the bettertimes.
+2025-11-13 10:06:08,767 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 1
+2025-11-13 10:06:08,767 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 1
+2025-11-13 10:06:08,767 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69133baa2bc58a7bce18f39b
+2025-11-13 10:06:08,767 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:06:08,767 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charanreddy
+2025-11-13 10:06:08,767 INFO  [main] o.e.controller.SocialMediaAppMain : Content: All Godd....
+2025-11-13 10:06:08,767 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:06:08,767 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:06:08,767 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69137e991164031bf819612b
+2025-11-13 10:06:08,767 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:06:08,767 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charanreddy
+2025-11-13 10:06:08,767 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Stay high.....
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 6913818a1164031bf819612c
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charanreddy
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Content: good
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 691381e41164031bf819612d
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Author: lokesh
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Facebook is even bigger than we think
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69142dffee6f9372e1f9c23c
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Author: lokesh
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Content: C:\Users\chara\Downloads\Fb logo.png
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69142e80ee6f9372e1f9c23d
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Author: lokesh
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Facebook is bigger than we think......
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69142ed1533f9007864ee001
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:06:08,768 INFO  [main] o.e.controller.SocialMediaAppMain : Author: lokesh
+2025-11-13 10:06:08,769 INFO  [main] o.e.controller.SocialMediaAppMain : Content: as
+2025-11-13 10:06:08,769 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:06:08,769 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:06:08,769 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69143602533f9007864ee002
+2025-11-13 10:06:08,769 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:06:08,769 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charan
+2025-11-13 10:06:08,769 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Hello everyone!
+2025-11-13 10:06:08,769 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:06:08,769 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:06:08,769 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69156038a069d04088061d19
+2025-11-13 10:06:08,769 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:06:08,826 INFO  [main] o.e.controller.SocialMediaAppMain : Login successful!
+2025-11-13 10:06:08,828 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid credentials
+2025-11-13 10:06:08,859 INFO  [main] o.e.controller.SocialMediaAppMain :  PROFILE DETAILS 
+2025-11-13 10:06:08,891 ERROR [main] o.e.controller.SocialMediaAppMain : Username or Email already exists
+2025-11-13 10:06:08,891 WARN  [main] o.e.controller.SocialMediaAppMain : Registration failed
+2025-11-13 10:06:08,919 WARN  [main] o.e.controller.SocialMediaAppMain : Username not found!
+2025-11-13 10:06:08,919 ERROR [main] o.e.controller.SocialMediaAppMain : Failed to send OTP. Username may not exist.
+2025-11-13 10:07:11,088 INFO  [main] o.e.controller.SocialMediaAppMain :  PROFILE DETAILS 
+2025-11-13 10:07:20,562 INFO  [main] o.e.controller.SocialMediaAppMain : You were not following this user.
+2025-11-13 10:07:20,563 INFO  [main] o.e.controller.SocialMediaAppMain : Could not unfollow user
+2025-11-13 10:07:20,675 INFO  [main] o.e.controller.SocialMediaAppMain : ----- Followers of charan -----
+2025-11-13 10:07:20,677 ERROR [main] o.e.controller.SocialMediaAppMain : No followers yet!
+2025-11-13 10:07:21,128 ERROR [main] o.e.controller.SocialMediaAppMain : Failed to send friend request
+2025-11-13 10:07:21,169 INFO  [main] o.e.controller.SocialMediaAppMain : No pending requests
+2025-11-13 10:07:21,206 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid request ID.
+2025-11-13 10:07:21,408 INFO  [main] org.mongodb.driver.client : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "5.1.0"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/23.0.2+7-58"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@62765aec, com.mongodb.Jep395RecordCodecProvider@6f5bd362, com.mongodb.KotlinCodecProvider@3a401749]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-11-13 10:07:21,425 INFO  [cluster-ClusterId{value='691560817a6ec64c4227d823', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=27, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=33426300}
+2025-11-13 10:07:21,554 INFO  [main] o.e.controller.SocialMediaAppMain : You liked the post!
+2025-11-13 10:07:21,605 INFO  [main] o.e.controller.SocialMediaAppMain : Author: keshav
+2025-11-13 10:07:21,606 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Sometimes hard times will teach you the bettertimes.
+2025-11-13 10:07:21,606 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 1
+2025-11-13 10:07:21,606 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 1
+2025-11-13 10:07:21,606 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69133baa2bc58a7bce18f39b
+2025-11-13 10:07:21,606 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:07:21,607 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charanreddy
+2025-11-13 10:07:21,607 INFO  [main] o.e.controller.SocialMediaAppMain : Content: All Godd....
+2025-11-13 10:07:21,607 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:07:21,607 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:07:21,607 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69137e991164031bf819612b
+2025-11-13 10:07:21,607 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:07:21,607 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charanreddy
+2025-11-13 10:07:21,607 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Stay high.....
+2025-11-13 10:07:21,607 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:07:21,608 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:07:21,608 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 6913818a1164031bf819612c
+2025-11-13 10:07:21,608 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:07:21,608 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charanreddy
+2025-11-13 10:07:21,608 INFO  [main] o.e.controller.SocialMediaAppMain : Content: good
+2025-11-13 10:07:21,608 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:07:21,608 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:07:21,608 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 691381e41164031bf819612d
+2025-11-13 10:07:21,608 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:07:21,608 INFO  [main] o.e.controller.SocialMediaAppMain : Author: lokesh
+2025-11-13 10:07:21,608 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Facebook is even bigger than we think
+2025-11-13 10:07:21,608 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:07:21,608 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:07:21,608 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69142dffee6f9372e1f9c23c
+2025-11-13 10:07:21,608 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:07:21,608 INFO  [main] o.e.controller.SocialMediaAppMain : Author: lokesh
+2025-11-13 10:07:21,608 INFO  [main] o.e.controller.SocialMediaAppMain : Content: C:\Users\chara\Downloads\Fb logo.png
+2025-11-13 10:07:21,608 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:07:21,608 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:07:21,608 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69142e80ee6f9372e1f9c23d
+2025-11-13 10:07:21,609 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:07:21,609 INFO  [main] o.e.controller.SocialMediaAppMain : Author: lokesh
+2025-11-13 10:07:21,609 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Facebook is bigger than we think......
+2025-11-13 10:07:21,609 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:07:21,609 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:07:21,609 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69142ed1533f9007864ee001
+2025-11-13 10:07:21,609 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:07:21,609 INFO  [main] o.e.controller.SocialMediaAppMain : Author: lokesh
+2025-11-13 10:07:21,609 INFO  [main] o.e.controller.SocialMediaAppMain : Content: as
+2025-11-13 10:07:21,609 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:07:21,609 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:07:21,609 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69143602533f9007864ee002
+2025-11-13 10:07:21,609 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:07:21,609 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charan
+2025-11-13 10:07:21,609 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Hello everyone!
+2025-11-13 10:07:21,609 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:07:21,609 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:07:21,609 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69156038a069d04088061d19
+2025-11-13 10:07:21,609 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:07:21,609 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charan
+2025-11-13 10:07:21,611 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Hello everyone!
+2025-11-13 10:07:21,611 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:07:21,611 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:07:21,611 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 691560817a6ec64c4227d824
+2025-11-13 10:07:21,611 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:07:21,698 INFO  [main] o.e.controller.SocialMediaAppMain : Login successful!
+2025-11-13 10:07:21,701 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid credentials
+2025-11-13 10:07:21,738 INFO  [main] o.e.controller.SocialMediaAppMain :  PROFILE DETAILS 
+2025-11-13 10:07:21,775 ERROR [main] o.e.controller.SocialMediaAppMain : Username or Email already exists
+2025-11-13 10:07:21,775 WARN  [main] o.e.controller.SocialMediaAppMain : Registration failed
+2025-11-13 10:07:21,803 WARN  [main] o.e.controller.SocialMediaAppMain : Username not found!
+2025-11-13 10:07:21,803 ERROR [main] o.e.controller.SocialMediaAppMain : Failed to send OTP. Username may not exist.
+2025-11-13 10:15:08,635 INFO  [main] o.e.controller.SocialMediaAppMain : You were not following this user.
+2025-11-13 10:15:08,638 WARN  [main] o.e.controller.SocialMediaAppMain : Could not unfollow user
+2025-11-13 10:15:08,760 INFO  [main] o.e.controller.SocialMediaAppMain : ----- Followers of charan -----
+2025-11-13 10:15:08,760 ERROR [main] o.e.controller.SocialMediaAppMain : No followers yet!
+2025-11-13 10:15:09,254 ERROR [main] o.e.controller.SocialMediaAppMain : Failed to send friend request
+2025-11-13 10:15:09,300 INFO  [main] o.e.controller.SocialMediaAppMain : No pending requests
+2025-11-13 10:15:09,347 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid request ID.
+2025-11-13 10:15:09,647 INFO  [main] org.mongodb.driver.client : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "5.1.0"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/23.0.2+7-58"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@7793ad58, com.mongodb.Jep395RecordCodecProvider@27e2287c, com.mongodb.KotlinCodecProvider@16132f21]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-11-13 10:15:09,671 INFO  [cluster-ClusterId{value='69156255d22194631b339bc4', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=27, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=36653900}
+2025-11-13 10:15:09,804 INFO  [main] o.e.controller.SocialMediaAppMain : You liked the post!
+2025-11-13 10:15:09,834 INFO  [main] o.e.controller.SocialMediaAppMain : Author: keshav
+2025-11-13 10:15:09,835 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Sometimes hard times will teach you the bettertimes.
+2025-11-13 10:15:09,835 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 1
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 1
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69133baa2bc58a7bce18f39b
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charanreddy
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : Content: All Godd....
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69137e991164031bf819612b
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charanreddy
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Stay high.....
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 6913818a1164031bf819612c
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charanreddy
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : Content: good
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 691381e41164031bf819612d
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : Author: lokesh
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Facebook is even bigger than we think
+2025-11-13 10:15:09,836 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:15:09,837 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:15:09,837 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69142dffee6f9372e1f9c23c
+2025-11-13 10:15:09,837 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:15:09,837 INFO  [main] o.e.controller.SocialMediaAppMain : Author: lokesh
+2025-11-13 10:15:09,837 INFO  [main] o.e.controller.SocialMediaAppMain : Content: C:\Users\chara\Downloads\Fb logo.png
+2025-11-13 10:15:09,837 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:15:09,837 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:15:09,837 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69142e80ee6f9372e1f9c23d
+2025-11-13 10:15:09,837 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:15:09,837 INFO  [main] o.e.controller.SocialMediaAppMain : Author: lokesh
+2025-11-13 10:15:09,837 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Facebook is bigger than we think......
+2025-11-13 10:15:09,837 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:15:09,837 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:15:09,837 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69142ed1533f9007864ee001
+2025-11-13 10:15:09,839 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:15:09,839 INFO  [main] o.e.controller.SocialMediaAppMain : Author: lokesh
+2025-11-13 10:15:09,839 INFO  [main] o.e.controller.SocialMediaAppMain : Content: as
+2025-11-13 10:15:09,839 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:15:09,839 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:15:09,839 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69143602533f9007864ee002
+2025-11-13 10:15:09,839 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:15:09,839 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charan
+2025-11-13 10:15:09,839 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Hello everyone!
+2025-11-13 10:15:09,839 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:15:09,839 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:15:09,839 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69156038a069d04088061d19
+2025-11-13 10:15:09,839 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:15:09,840 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charan
+2025-11-13 10:15:09,840 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Hello everyone!
+2025-11-13 10:15:09,840 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:15:09,840 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:15:09,840 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 691560817a6ec64c4227d824
+2025-11-13 10:15:09,840 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:15:09,840 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charan
+2025-11-13 10:15:09,840 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Hello everyone!
+2025-11-13 10:15:09,840 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:15:09,840 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:15:09,840 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69156255d22194631b339bc5
+2025-11-13 10:15:09,840 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:15:09,926 INFO  [main] o.e.controller.SocialMediaAppMain : Login successful!
+2025-11-13 10:15:09,929 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid credentials
+2025-11-13 10:15:09,965 INFO  [main] o.e.controller.SocialMediaAppMain :  PROFILE DETAILS 
+2025-11-13 10:15:10,017 ERROR [main] o.e.controller.SocialMediaAppMain : Username or Email already exists
+2025-11-13 10:15:10,018 WARN  [main] o.e.controller.SocialMediaAppMain : Registration failed
+2025-11-13 10:15:10,056 WARN  [main] o.e.controller.SocialMediaAppMain : Username not found!
+2025-11-13 10:15:10,056 ERROR [main] o.e.controller.SocialMediaAppMain : Failed to send OTP. Username may not exist.
+2025-11-13 10:15:48,741 INFO  [main] o.e.controller.SocialMediaAppMain : Login successful!
+2025-11-13 10:15:48,746 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid credentials
+2025-11-13 10:15:48,848 INFO  [main] o.e.controller.SocialMediaAppMain :  PROFILE DETAILS 
+2025-11-13 10:15:48,924 ERROR [main] o.e.controller.SocialMediaAppMain : Username or Email already exists
+2025-11-13 10:15:48,926 WARN  [main] o.e.controller.SocialMediaAppMain : Registration failed
+2025-11-13 10:15:48,974 WARN  [main] o.e.controller.SocialMediaAppMain : Username not found!
+2025-11-13 10:15:48,975 ERROR [main] o.e.controller.SocialMediaAppMain : Failed to send OTP. Username may not exist.
+2025-11-13 10:26:42,902 INFO  [main] o.e.controller.SocialMediaAppMain : You were not following this user.
+2025-11-13 10:26:42,904 WARN  [main] o.e.controller.SocialMediaAppMain : Could not unfollow user
+2025-11-13 10:26:43,019 INFO  [main] o.e.controller.SocialMediaAppMain : ----- Followers of charan -----
+2025-11-13 10:26:43,019 ERROR [main] o.e.controller.SocialMediaAppMain : No followers yet!
+2025-11-13 10:26:43,507 ERROR [main] o.e.controller.SocialMediaAppMain : Failed to send friend request
+2025-11-13 10:26:43,548 INFO  [main] o.e.controller.SocialMediaAppMain : No pending requests
+2025-11-13 10:26:43,588 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid request ID.
+2025-11-13 10:26:43,783 INFO  [main] org.mongodb.driver.client : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "5.1.0"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/23.0.2+7-58"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@7793ad58, com.mongodb.Jep395RecordCodecProvider@27e2287c, com.mongodb.KotlinCodecProvider@16132f21]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-11-13 10:26:43,806 INFO  [cluster-ClusterId{value='6915650b959dee70e97b4058', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=27, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=34071300}
+2025-11-13 10:26:43,917 INFO  [main] o.e.controller.SocialMediaAppMain : You liked the post!
+2025-11-13 10:26:43,952 INFO  [main] o.e.controller.SocialMediaAppMain : Author: keshav
+2025-11-13 10:26:43,953 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Sometimes hard times will teach you the bettertimes.
+2025-11-13 10:26:43,953 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 1
+2025-11-13 10:26:43,953 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 1
+2025-11-13 10:26:43,953 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69133baa2bc58a7bce18f39b
+2025-11-13 10:26:43,953 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:26:43,953 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charanreddy
+2025-11-13 10:26:43,953 INFO  [main] o.e.controller.SocialMediaAppMain : Content: All Godd....
+2025-11-13 10:26:43,953 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:26:43,953 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:26:43,954 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69137e991164031bf819612b
+2025-11-13 10:26:43,954 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:26:43,954 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charanreddy
+2025-11-13 10:26:43,954 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Stay high.....
+2025-11-13 10:26:43,954 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:26:43,954 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:26:43,954 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 6913818a1164031bf819612c
+2025-11-13 10:26:43,954 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:26:43,954 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charanreddy
+2025-11-13 10:26:43,954 INFO  [main] o.e.controller.SocialMediaAppMain : Content: good
+2025-11-13 10:26:43,954 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:26:43,954 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:26:43,954 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 691381e41164031bf819612d
+2025-11-13 10:26:43,954 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:26:43,954 INFO  [main] o.e.controller.SocialMediaAppMain : Author: lokesh
+2025-11-13 10:26:43,954 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Facebook is even bigger than we think
+2025-11-13 10:26:43,954 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:26:43,954 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:26:43,954 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69142dffee6f9372e1f9c23c
+2025-11-13 10:26:43,954 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:26:43,954 INFO  [main] o.e.controller.SocialMediaAppMain : Author: lokesh
+2025-11-13 10:26:43,955 INFO  [main] o.e.controller.SocialMediaAppMain : Content: C:\Users\chara\Downloads\Fb logo.png
+2025-11-13 10:26:43,955 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:26:43,955 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:26:43,955 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69142e80ee6f9372e1f9c23d
+2025-11-13 10:26:43,955 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:26:43,955 INFO  [main] o.e.controller.SocialMediaAppMain : Author: lokesh
+2025-11-13 10:26:43,955 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Facebook is bigger than we think......
+2025-11-13 10:26:43,955 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:26:43,955 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:26:43,955 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69142ed1533f9007864ee001
+2025-11-13 10:26:43,955 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:26:43,955 INFO  [main] o.e.controller.SocialMediaAppMain : Author: lokesh
+2025-11-13 10:26:43,955 INFO  [main] o.e.controller.SocialMediaAppMain : Content: as
+2025-11-13 10:26:43,955 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:26:43,955 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:26:43,956 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69143602533f9007864ee002
+2025-11-13 10:26:43,956 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:26:43,956 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charan
+2025-11-13 10:26:43,956 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Hello everyone!
+2025-11-13 10:26:43,956 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:26:43,956 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:26:43,956 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69156038a069d04088061d19
+2025-11-13 10:26:43,956 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:26:43,956 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charan
+2025-11-13 10:26:43,956 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Hello everyone!
+2025-11-13 10:26:43,956 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:26:43,956 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:26:43,956 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 691560817a6ec64c4227d824
+2025-11-13 10:26:43,956 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:26:43,956 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charan
+2025-11-13 10:26:43,956 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Hello everyone!
+2025-11-13 10:26:43,956 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:26:43,956 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:26:43,956 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 69156255d22194631b339bc5
+2025-11-13 10:26:43,956 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:26:43,957 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charan
+2025-11-13 10:26:43,957 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Hello everyone!
+2025-11-13 10:26:43,957 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 10:26:43,957 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 10:26:43,957 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 6915650b959dee70e97b4059
+2025-11-13 10:26:43,957 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------------------
+2025-11-13 10:26:43,998 INFO  [main] o.e.controller.SocialMediaAppMain : Login successful!
+2025-11-13 10:26:43,999 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid credentials
+2025-11-13 10:26:44,004 INFO  [main] o.e.controller.SocialMediaAppMain :  PROFILE DETAILS 
+2025-11-13 10:26:44,019 ERROR [main] o.e.controller.SocialMediaAppMain : Failed to send OTP. Username may not exist.
+2025-11-13 10:36:11,205 INFO  [main] o.e.controller.SocialMediaAppMain : ----- Followers of charan -----
+2025-11-13 10:36:11,303 INFO  [main] o.e.controller.SocialMediaAppMain : Friend request sent successfully!
+2025-11-13 10:36:11,355 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid request ID.
+2025-11-13 10:36:11,500 INFO  [main] o.e.controller.SocialMediaAppMain : You liked the post!
+2025-11-13 10:36:11,567 INFO  [main] o.e.controller.SocialMediaAppMain : Login successful!
+2025-11-13 10:36:11,571 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid credentials
+2025-11-13 10:36:11,579 INFO  [main] o.e.controller.SocialMediaAppMain :  PROFILE DETAILS 
+2025-11-13 10:36:11,605 ERROR [main] o.e.controller.SocialMediaAppMain : Failed to send OTP. Username may not exist.
+2025-11-13 10:36:27,129 INFO  [main] o.e.controller.SocialMediaAppMain : ----- Followers of charan -----
+2025-11-13 10:36:27,236 INFO  [main] o.e.controller.SocialMediaAppMain : Friend request sent successfully!
+2025-11-13 10:36:27,289 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid request ID.
+2025-11-13 10:36:27,439 INFO  [main] o.e.controller.SocialMediaAppMain : You liked the post!
+2025-11-13 10:36:27,504 INFO  [main] o.e.controller.SocialMediaAppMain : Login successful!
+2025-11-13 10:36:27,505 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid credentials
+2025-11-13 10:36:27,512 INFO  [main] o.e.controller.SocialMediaAppMain :  PROFILE DETAILS 
+2025-11-13 10:36:27,534 ERROR [main] o.e.controller.SocialMediaAppMain : Failed to send OTP. Username may not exist.
+2025-11-13 10:36:43,770 INFO  [main] o.e.controller.SocialMediaAppMain : Login successful!
+2025-11-13 10:36:43,773 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid credentials
+2025-11-13 10:36:43,793 INFO  [main] o.e.controller.SocialMediaAppMain :  PROFILE DETAILS 
+2025-11-13 10:36:43,845 ERROR [main] o.e.controller.SocialMediaAppMain : Failed to send OTP. Username may not exist.
+2025-11-13 10:37:07,223 INFO  [main] o.e.controller.SocialMediaAppMain : Login successful!
+2025-11-13 10:37:07,226 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid credentials
+2025-11-13 10:37:07,249 INFO  [main] o.e.controller.SocialMediaAppMain :  PROFILE DETAILS 
+2025-11-13 10:37:07,298 ERROR [main] o.e.controller.SocialMediaAppMain : Failed to send OTP. Username may not exist.
+2025-11-13 11:33:31,918 INFO  [main] o.e.controller.SocialMediaAppMain : You were not following this user.
+2025-11-13 11:33:31,920 WARN  [main] o.e.controller.SocialMediaAppMain : Could not unfollow user
+2025-11-13 11:33:32,045 INFO  [main] o.e.controller.SocialMediaAppMain : ----- Followers of charan -----
+2025-11-13 11:33:32,046 ERROR [main] o.e.controller.SocialMediaAppMain : No followers yet!
+2025-11-13 11:33:32,130 INFO  [main] o.e.controller.SocialMediaAppMain : Friend request sent successfully!
+2025-11-13 11:33:32,181 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid request ID.
+2025-11-13 11:33:32,313 INFO  [main] o.e.controller.SocialMediaAppMain : You liked the post!
+2025-11-13 11:33:32,403 INFO  [main] o.e.controller.SocialMediaAppMain : Login successful!
+2025-11-13 11:33:32,406 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid credentials
+2025-11-13 11:33:32,451 INFO  [main] o.e.controller.SocialMediaAppMain :  PROFILE DETAILS 
+2025-11-13 11:33:32,506 ERROR [main] o.e.controller.SocialMediaAppMain : Username or Email already exists
+2025-11-13 11:33:32,507 WARN  [main] o.e.controller.SocialMediaAppMain : Registration failed
+2025-11-13 11:33:32,543 WARN  [main] o.e.controller.SocialMediaAppMain : Username not found!
+2025-11-13 11:33:32,543 ERROR [main] o.e.controller.SocialMediaAppMain : Failed to send OTP. Username may not exist.
+2025-11-13 12:21:40,971 INFO  [main] o.e.controller.SocialMediaAppMain : Login successful!
+2025-11-13 12:21:40,978 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid credentials
+2025-11-13 12:21:41,063 INFO  [main] o.e.controller.SocialMediaAppMain :  PROFILE DETAILS 
+2025-11-13 12:21:41,123 ERROR [main] o.e.controller.SocialMediaAppMain : Username or Email already exists
+2025-11-13 12:21:41,123 WARN  [main] o.e.controller.SocialMediaAppMain : Registration failed
+2025-11-13 12:21:41,164 WARN  [main] o.e.controller.SocialMediaAppMain : Username not found!
+2025-11-13 12:21:41,165 ERROR [main] o.e.controller.SocialMediaAppMain : Failed to send OTP. Username may not exist.
+2025-11-13 12:30:43,721 INFO  [main] o.e.controller.SocialMediaAppMain : Enter the OTP you received: 
+2025-11-13 12:32:05,142 INFO  [main] o.e.controller.SocialMediaAppMain : Enter the OTP you received: 
+2025-11-13 12:34:09,713 INFO  [main] o.e.controller.SocialMediaAppMain : Enter the OTP you received: 
+2025-11-13 12:35:00,564 INFO  [main] o.e.controller.SocialMediaAppMain : Enter the OTP you received: 
+2025-11-13 12:36:39,536 INFO  [main] o.e.controller.SocialMediaAppMain : Enter the OTP you received: 
+2025-11-13 12:36:53,568 INFO  [main] o.e.controller.SocialMediaAppMain : You were not following this user.
+2025-11-13 12:36:53,570 WARN  [main] o.e.controller.SocialMediaAppMain : Could not unfollow user
+2025-11-13 12:36:53,712 INFO  [main] o.e.controller.SocialMediaAppMain : ----- Followers of charan -----
+2025-11-13 12:36:53,713 ERROR [main] o.e.controller.SocialMediaAppMain : No followers yet!
+2025-11-13 12:36:54,233 ERROR [main] o.e.controller.SocialMediaAppMain : Failed to send friend request
+2025-11-13 12:36:54,284 INFO  [main] o.e.controller.SocialMediaAppMain : No pending requests
+2025-11-13 12:36:54,333 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid request ID.
+2025-11-13 12:36:54,397 INFO  [main] o.e.controller.SocialMediaAppMain : You liked the post!
+2025-11-13 12:36:58,728 INFO  [main] o.e.controller.SocialMediaAppMain : Enter the OTP you received: 
+2025-11-13 12:37:56,197 INFO  [main] o.e.controller.SocialMediaAppMain : Login successful!
+2025-11-13 12:37:56,204 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid credentials
+2025-11-13 12:37:56,290 INFO  [main] o.e.controller.SocialMediaAppMain :  PROFILE DETAILS 
+2025-11-13 12:37:56,356 ERROR [main] o.e.controller.SocialMediaAppMain : Username or Email already exists
+2025-11-13 12:37:56,357 WARN  [main] o.e.controller.SocialMediaAppMain : Registration failed
+2025-11-13 12:37:56,405 WARN  [main] o.e.controller.SocialMediaAppMain : Username not found!
+2025-11-13 12:37:56,406 ERROR [main] o.e.controller.SocialMediaAppMain : Failed to send OTP. Username may not exist.
+2025-11-13 12:38:20,767 INFO  [main] o.e.controller.SocialMediaAppMain : Login successful!
+2025-11-13 12:38:20,774 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid credentials
+2025-11-13 12:38:20,862 INFO  [main] o.e.controller.SocialMediaAppMain :  PROFILE DETAILS 
+2025-11-13 12:38:20,933 ERROR [main] o.e.controller.SocialMediaAppMain : Username or Email already exists
+2025-11-13 12:38:20,933 WARN  [main] o.e.controller.SocialMediaAppMain : Registration failed
+2025-11-13 12:38:20,977 WARN  [main] o.e.controller.SocialMediaAppMain : Username not found!
+2025-11-13 12:38:20,978 ERROR [main] o.e.controller.SocialMediaAppMain : Failed to send OTP. Username may not exist.
+2025-11-13 14:04:02,891 INFO  [main] o.e.controller.SocialMediaAppMain : Login successful!
+2025-11-13 14:04:02,897 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid credentials
+2025-11-13 14:04:02,990 INFO  [main] o.e.controller.SocialMediaAppMain :  PROFILE DETAILS 
+2025-11-13 14:04:03,058 ERROR [main] o.e.controller.SocialMediaAppMain : Username or Email already exists
+2025-11-13 14:04:03,058 WARN  [main] o.e.controller.SocialMediaAppMain : Registration failed
+2025-11-13 14:04:03,098 WARN  [main] o.e.controller.SocialMediaAppMain : Username not found!
+2025-11-13 14:04:03,098 ERROR [main] o.e.controller.SocialMediaAppMain : Failed to send OTP. Username may not exist.
+2025-11-13 14:52:03,920 INFO  [main] o.e.controller.SocialMediaAppMain : Logged in.
+2025-11-13 14:52:03,924 WARN  [main] o.e.controller.SocialMediaAppMain : Login failed.
+2025-11-13 14:52:03,981 INFO  [main] o.e.controller.SocialMediaAppMain : Profile:
+2025-11-13 14:52:04,096 ERROR [main] o.e.controller.SocialMediaAppMain : OTP error.
+2025-11-13 14:53:09,741 INFO  [main] o.e.controller.SocialMediaAppMain : Done.
+2025-11-13 14:53:09,859 INFO  [main] o.e.controller.SocialMediaAppMain : Followers:
+2025-11-13 15:06:52,845 INFO  [main] o.e.controller.SocialMediaAppMain : Done.
+2025-11-13 15:06:52,951 INFO  [main] o.e.controller.SocialMediaAppMain : Followers:
+2025-11-13 15:07:15,815 INFO  [main] o.e.controller.SocialMediaAppMain : Logged in.
+2025-11-13 15:07:15,826 WARN  [main] o.e.controller.SocialMediaAppMain : Login failed.
+2025-11-13 15:07:15,884 INFO  [main] o.e.controller.SocialMediaAppMain : Profile:
+2025-11-13 15:07:15,967 ERROR [main] o.e.controller.SocialMediaAppMain : OTP error.
+2025-11-13 15:07:54,552 INFO  [main] o.e.controller.SocialMediaAppMain : Done.
+2025-11-13 15:07:54,639 INFO  [main] o.e.controller.SocialMediaAppMain : Followers:
+2025-11-13 15:07:54,704 INFO  [main] o.e.controller.SocialMediaAppMain : Sent.
+2025-11-13 15:07:54,722 INFO  [main] o.e.controller.SocialMediaAppMain : Pending:
+2025-11-13 15:07:54,726 INFO  [main] o.e.controller.SocialMediaAppMain : ID 0 from null
+2025-11-13 15:07:54,744 WARN  [main] o.e.controller.SocialMediaAppMain : No request.
+2025-11-13 15:07:54,983 INFO  [main] org.mongodb.driver.client : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "5.1.0"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/23.0.2+7-58"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@7161457, com.mongodb.Jep395RecordCodecProvider@38ee7a9d, com.mongodb.KotlinCodecProvider@629984eb]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-11-13 15:07:55,010 INFO  [cluster-ClusterId{value='6915a6f262415520ed264c6a', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=27, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=26180700}
+2025-11-13 15:07:55,056 INFO  [main] o.e.controller.SocialMediaAppMain : Liked.
+2025-11-13 15:07:55,071 INFO  [main] o.e.controller.SocialMediaAppMain : No posts.
+2025-11-13 15:07:55,120 INFO  [main] o.e.controller.SocialMediaAppMain : Logged in.
+2025-11-13 15:07:55,121 WARN  [main] o.e.controller.SocialMediaAppMain : Login failed.
+2025-11-13 15:07:55,146 INFO  [main] o.e.controller.SocialMediaAppMain : Profile:
+2025-11-13 15:07:55,198 ERROR [main] o.e.controller.SocialMediaAppMain : OTP error.
+2025-11-13 15:09:41,165 INFO  [main] o.e.controller.SocialMediaAppMain : Logged in.
+2025-11-13 15:09:41,168 WARN  [main] o.e.controller.SocialMediaAppMain : Login failed.
+2025-11-13 15:09:41,214 INFO  [main] o.e.controller.SocialMediaAppMain : Profile:
+2025-11-13 15:09:41,301 ERROR [main] o.e.controller.SocialMediaAppMain : OTP error.
+2025-11-13 15:09:53,498 INFO  [main] org.mongodb.driver.client : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "5.1.0"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/23.0.2+7-58"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@3932c79a, com.mongodb.Jep395RecordCodecProvider@782859e, com.mongodb.KotlinCodecProvider@23f5b5dc]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-11-13 15:09:53,520 INFO  [cluster-ClusterId{value='6915a769404da12554dc8e78', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=27, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=21065000}
+2025-11-13 15:09:53,953 INFO  [main] o.e.controller.SocialMediaAppMain : === SOCIAL MEDIA APP ===
+2025-11-13 15:09:53,954 INFO  [main] o.e.controller.SocialMediaAppMain : 
+2025-11-13 15:09:53,954 INFO  [main] o.e.controller.SocialMediaAppMain : 1. Register
+2025-11-13 15:09:53,954 INFO  [main] o.e.controller.SocialMediaAppMain : 2. Login
+2025-11-13 15:09:53,954 INFO  [main] o.e.controller.SocialMediaAppMain : 3. Forgot Password
+2025-11-13 15:09:53,954 INFO  [main] o.e.controller.SocialMediaAppMain : 4. Exit
+2025-11-13 15:09:53,954 INFO  [main] o.e.controller.SocialMediaAppMain : Choice: 
+2025-11-13 15:09:57,695 INFO  [main] o.e.controller.SocialMediaAppMain : Username: 
+2025-11-13 15:10:01,333 INFO  [main] o.e.controller.SocialMediaAppMain : Password: 
+2025-11-13 15:10:03,960 INFO  [main] o.e.controller.SocialMediaAppMain : Logged in.
+2025-11-13 15:10:03,961 INFO  [main] o.e.controller.SocialMediaAppMain : Welcome lokesh
+2025-11-13 15:10:03,961 INFO  [main] o.e.controller.SocialMediaAppMain : 
+2025-11-13 15:10:03,961 INFO  [main] o.e.controller.SocialMediaAppMain : === Menu (lokesh) ===
+2025-11-13 15:10:03,961 INFO  [main] o.e.controller.SocialMediaAppMain : 1. View Profile
+2025-11-13 15:10:03,961 INFO  [main] o.e.controller.SocialMediaAppMain : 2. Create Profile
+2025-11-13 15:10:03,961 INFO  [main] o.e.controller.SocialMediaAppMain : 3. Update Profile
+2025-11-13 15:10:03,961 INFO  [main] o.e.controller.SocialMediaAppMain : 4. Send Friend Request
+2025-11-13 15:10:03,961 INFO  [main] o.e.controller.SocialMediaAppMain : 5. View Pending Requests
+2025-11-13 15:10:03,961 INFO  [main] o.e.controller.SocialMediaAppMain : 6. Accept Friend Request
+2025-11-13 15:10:03,961 INFO  [main] o.e.controller.SocialMediaAppMain : 7. Follow User
+2025-11-13 15:10:03,961 INFO  [main] o.e.controller.SocialMediaAppMain : 8. Unfollow User
+2025-11-13 15:10:03,961 INFO  [main] o.e.controller.SocialMediaAppMain : 9. View Followers
+2025-11-13 15:10:03,961 INFO  [main] o.e.controller.SocialMediaAppMain : 10. View Following
+2025-11-13 15:10:03,961 INFO  [main] o.e.controller.SocialMediaAppMain : 11. Create Post
+2025-11-13 15:10:03,961 INFO  [main] o.e.controller.SocialMediaAppMain : 12. View All Posts
+2025-11-13 15:10:03,961 INFO  [main] o.e.controller.SocialMediaAppMain : 13. View Personalized Feed
+2025-11-13 15:10:03,961 INFO  [main] o.e.controller.SocialMediaAppMain : 14. Like a Post
+2025-11-13 15:10:03,961 INFO  [main] o.e.controller.SocialMediaAppMain : 15. Comment on a Post
+2025-11-13 15:10:03,961 INFO  [main] o.e.controller.SocialMediaAppMain : 16. Logout
+2025-11-13 15:10:03,961 INFO  [main] o.e.controller.SocialMediaAppMain : Choice: 
+2025-11-13 15:10:08,035 INFO  [main] o.e.controller.SocialMediaAppMain : Write post: 
+2025-11-13 15:10:24,427 INFO  [main] o.e.controller.SocialMediaAppMain : Posted.
+2025-11-13 15:10:24,427 INFO  [main] o.e.controller.SocialMediaAppMain : 
+2025-11-13 15:10:24,427 INFO  [main] o.e.controller.SocialMediaAppMain : === Menu (lokesh) ===
+2025-11-13 15:10:24,427 INFO  [main] o.e.controller.SocialMediaAppMain : 1. View Profile
+2025-11-13 15:10:24,427 INFO  [main] o.e.controller.SocialMediaAppMain : 2. Create Profile
+2025-11-13 15:10:24,427 INFO  [main] o.e.controller.SocialMediaAppMain : 3. Update Profile
+2025-11-13 15:10:24,427 INFO  [main] o.e.controller.SocialMediaAppMain : 4. Send Friend Request
+2025-11-13 15:10:24,428 INFO  [main] o.e.controller.SocialMediaAppMain : 5. View Pending Requests
+2025-11-13 15:10:24,428 INFO  [main] o.e.controller.SocialMediaAppMain : 6. Accept Friend Request
+2025-11-13 15:10:24,428 INFO  [main] o.e.controller.SocialMediaAppMain : 7. Follow User
+2025-11-13 15:10:24,428 INFO  [main] o.e.controller.SocialMediaAppMain : 8. Unfollow User
+2025-11-13 15:10:24,428 INFO  [main] o.e.controller.SocialMediaAppMain : 9. View Followers
+2025-11-13 15:10:24,428 INFO  [main] o.e.controller.SocialMediaAppMain : 10. View Following
+2025-11-13 15:10:24,428 INFO  [main] o.e.controller.SocialMediaAppMain : 11. Create Post
+2025-11-13 15:10:24,428 INFO  [main] o.e.controller.SocialMediaAppMain : 12. View All Posts
+2025-11-13 15:10:24,428 INFO  [main] o.e.controller.SocialMediaAppMain : 13. View Personalized Feed
+2025-11-13 15:10:24,428 INFO  [main] o.e.controller.SocialMediaAppMain : 14. Like a Post
+2025-11-13 15:10:24,428 INFO  [main] o.e.controller.SocialMediaAppMain : 15. Comment on a Post
+2025-11-13 15:10:24,428 INFO  [main] o.e.controller.SocialMediaAppMain : 16. Logout
+2025-11-13 15:10:24,428 INFO  [main] o.e.controller.SocialMediaAppMain : Choice: 
+2025-11-13 15:10:39,111 INFO  [main] o.e.controller.SocialMediaAppMain : Author: keshav
+2025-11-13 15:10:39,111 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Sometimes hard times will teach you the bettertimes.
+2025-11-13 15:10:39,112 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 1
+2025-11-13 15:10:39,112 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 1
+2025-11-13 15:10:39,112 INFO  [main] o.e.controller.SocialMediaAppMain : ID: 69133baa2bc58a7bce18f39b
+2025-11-13 15:10:39,112 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------
+2025-11-13 15:10:39,112 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charanreddy
+2025-11-13 15:10:39,112 INFO  [main] o.e.controller.SocialMediaAppMain : Content: All Godd....
+2025-11-13 15:10:39,112 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 15:10:39,112 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 15:10:39,112 INFO  [main] o.e.controller.SocialMediaAppMain : ID: 69137e991164031bf819612b
+2025-11-13 15:10:39,112 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------
+2025-11-13 15:10:39,112 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charanreddy
+2025-11-13 15:10:39,112 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Stay high.....
+2025-11-13 15:10:39,112 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 15:10:39,112 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 15:10:39,112 INFO  [main] o.e.controller.SocialMediaAppMain : ID: 6913818a1164031bf819612c
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charanreddy
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Content: good
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : ID: 691381e41164031bf819612d
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Author: lokesh
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Facebook is even bigger than we think
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : ID: 69142dffee6f9372e1f9c23c
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Author: lokesh
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Content: C:\Users\chara\Downloads\Fb logo.png
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : ID: 69142e80ee6f9372e1f9c23d
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Author: lokesh
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Facebook is bigger than we think......
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : ID: 69142ed1533f9007864ee001
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Author: lokesh
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Content: as
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : ID: 69143602533f9007864ee002
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charan
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Hello everyone!
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : ID: 69156038a069d04088061d19
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charan
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Hello everyone!
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : ID: 691560817a6ec64c4227d824
+2025-11-13 15:10:39,113 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charan
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Hello everyone!
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : ID: 69156255d22194631b339bc5
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : Author: charan
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Hello everyone!
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : ID: 6915650b959dee70e97b4059
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : Author: lokesh
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : Content: Choose Wisely.....
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : Likes: 0
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : Comments: 0
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : ID: 6915a788404da12554dc8e79
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : ---------------------------
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : 
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : === Menu (lokesh) ===
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : 1. View Profile
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : 2. Create Profile
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : 3. Update Profile
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : 4. Send Friend Request
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : 5. View Pending Requests
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : 6. Accept Friend Request
+2025-11-13 15:10:39,115 INFO  [main] o.e.controller.SocialMediaAppMain : 7. Follow User
+2025-11-13 15:10:39,116 INFO  [main] o.e.controller.SocialMediaAppMain : 8. Unfollow User
+2025-11-13 15:10:39,116 INFO  [main] o.e.controller.SocialMediaAppMain : 9. View Followers
+2025-11-13 15:10:39,116 INFO  [main] o.e.controller.SocialMediaAppMain : 10. View Following
+2025-11-13 15:10:39,116 INFO  [main] o.e.controller.SocialMediaAppMain : 11. Create Post
+2025-11-13 15:10:39,116 INFO  [main] o.e.controller.SocialMediaAppMain : 12. View All Posts
+2025-11-13 15:10:39,116 INFO  [main] o.e.controller.SocialMediaAppMain : 13. View Personalized Feed
+2025-11-13 15:10:39,116 INFO  [main] o.e.controller.SocialMediaAppMain : 14. Like a Post
+2025-11-13 15:10:39,116 INFO  [main] o.e.controller.SocialMediaAppMain : 15. Comment on a Post
+2025-11-13 15:10:39,116 INFO  [main] o.e.controller.SocialMediaAppMain : 16. Logout
+2025-11-13 15:10:39,116 INFO  [main] o.e.controller.SocialMediaAppMain : Choice: 
+2025-11-13 15:10:55,209 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 
+2025-11-13 15:11:10,616 INFO  [main] o.e.controller.SocialMediaAppMain : Liked.
+2025-11-13 15:11:10,616 INFO  [main] o.e.controller.SocialMediaAppMain : 
+2025-11-13 15:11:10,616 INFO  [main] o.e.controller.SocialMediaAppMain : === Menu (lokesh) ===
+2025-11-13 15:11:10,616 INFO  [main] o.e.controller.SocialMediaAppMain : 1. View Profile
+2025-11-13 15:11:10,616 INFO  [main] o.e.controller.SocialMediaAppMain : 2. Create Profile
+2025-11-13 15:11:10,616 INFO  [main] o.e.controller.SocialMediaAppMain : 3. Update Profile
+2025-11-13 15:11:10,616 INFO  [main] o.e.controller.SocialMediaAppMain : 4. Send Friend Request
+2025-11-13 15:11:10,617 INFO  [main] o.e.controller.SocialMediaAppMain : 5. View Pending Requests
+2025-11-13 15:11:10,617 INFO  [main] o.e.controller.SocialMediaAppMain : 6. Accept Friend Request
+2025-11-13 15:11:10,617 INFO  [main] o.e.controller.SocialMediaAppMain : 7. Follow User
+2025-11-13 15:11:10,617 INFO  [main] o.e.controller.SocialMediaAppMain : 8. Unfollow User
+2025-11-13 15:11:10,617 INFO  [main] o.e.controller.SocialMediaAppMain : 9. View Followers
+2025-11-13 15:11:10,617 INFO  [main] o.e.controller.SocialMediaAppMain : 10. View Following
+2025-11-13 15:11:10,617 INFO  [main] o.e.controller.SocialMediaAppMain : 11. Create Post
+2025-11-13 15:11:10,617 INFO  [main] o.e.controller.SocialMediaAppMain : 12. View All Posts
+2025-11-13 15:11:10,617 INFO  [main] o.e.controller.SocialMediaAppMain : 13. View Personalized Feed
+2025-11-13 15:11:10,617 INFO  [main] o.e.controller.SocialMediaAppMain : 14. Like a Post
+2025-11-13 15:11:10,617 INFO  [main] o.e.controller.SocialMediaAppMain : 15. Comment on a Post
+2025-11-13 15:11:10,617 INFO  [main] o.e.controller.SocialMediaAppMain : 16. Logout
+2025-11-13 15:11:10,617 INFO  [main] o.e.controller.SocialMediaAppMain : Choice: 
+2025-11-13 15:11:18,050 INFO  [main] o.e.controller.SocialMediaAppMain : Post ID: 
+2025-11-13 15:11:39,707 INFO  [main] o.e.controller.SocialMediaAppMain : Comment: 
+2025-11-13 15:12:04,958 INFO  [main] o.e.controller.SocialMediaAppMain : Comment added.
+2025-11-13 15:12:04,958 INFO  [main] o.e.controller.SocialMediaAppMain : 
+2025-11-13 15:12:04,958 INFO  [main] o.e.controller.SocialMediaAppMain : === Menu (lokesh) ===
+2025-11-13 15:12:04,958 INFO  [main] o.e.controller.SocialMediaAppMain : 1. View Profile
+2025-11-13 15:12:04,958 INFO  [main] o.e.controller.SocialMediaAppMain : 2. Create Profile
+2025-11-13 15:12:04,958 INFO  [main] o.e.controller.SocialMediaAppMain : 3. Update Profile
+2025-11-13 15:12:04,958 INFO  [main] o.e.controller.SocialMediaAppMain : 4. Send Friend Request
+2025-11-13 15:12:04,958 INFO  [main] o.e.controller.SocialMediaAppMain : 5. View Pending Requests
+2025-11-13 15:12:04,958 INFO  [main] o.e.controller.SocialMediaAppMain : 6. Accept Friend Request
+2025-11-13 15:12:04,958 INFO  [main] o.e.controller.SocialMediaAppMain : 7. Follow User
+2025-11-13 15:12:04,958 INFO  [main] o.e.controller.SocialMediaAppMain : 8. Unfollow User
+2025-11-13 15:12:04,958 INFO  [main] o.e.controller.SocialMediaAppMain : 9. View Followers
+2025-11-13 15:12:04,958 INFO  [main] o.e.controller.SocialMediaAppMain : 10. View Following
+2025-11-13 15:12:04,958 INFO  [main] o.e.controller.SocialMediaAppMain : 11. Create Post
+2025-11-13 15:12:04,959 INFO  [main] o.e.controller.SocialMediaAppMain : 12. View All Posts
+2025-11-13 15:12:04,959 INFO  [main] o.e.controller.SocialMediaAppMain : 13. View Personalized Feed
+2025-11-13 15:12:04,959 INFO  [main] o.e.controller.SocialMediaAppMain : 14. Like a Post
+2025-11-13 15:12:04,959 INFO  [main] o.e.controller.SocialMediaAppMain : 15. Comment on a Post
+2025-11-13 15:12:04,959 INFO  [main] o.e.controller.SocialMediaAppMain : 16. Logout
+2025-11-13 15:12:04,959 INFO  [main] o.e.controller.SocialMediaAppMain : Choice: 
+2025-11-13 15:12:10,877 INFO  [main] o.e.controller.SocialMediaAppMain : Logged out.
+2025-11-13 15:12:10,878 INFO  [main] o.e.controller.SocialMediaAppMain : 
+2025-11-13 15:12:10,878 INFO  [main] o.e.controller.SocialMediaAppMain : 1. Register
+2025-11-13 15:12:10,878 INFO  [main] o.e.controller.SocialMediaAppMain : 2. Login
+2025-11-13 15:12:10,878 INFO  [main] o.e.controller.SocialMediaAppMain : 3. Forgot Password
+2025-11-13 15:12:10,878 INFO  [main] o.e.controller.SocialMediaAppMain : 4. Exit
+2025-11-13 15:12:10,878 INFO  [main] o.e.controller.SocialMediaAppMain : Choice: 
+2025-11-13 15:12:14,089 INFO  [main] o.e.controller.SocialMediaAppMain : Goodbye.
+2025-11-13 15:14:19,967 INFO  [main] o.e.controller.SocialMediaAppMain : Logged in.
+2025-11-13 15:14:19,978 WARN  [main] o.e.controller.SocialMediaAppMain : Login failed.
+2025-11-13 15:14:20,033 INFO  [main] o.e.controller.SocialMediaAppMain : Profile:
+2025-11-13 15:14:20,075 INFO  [main] o.e.controller.SocialMediaAppMain : Profile added.
+2025-11-13 15:14:20,113 INFO  [main] o.e.controller.SocialMediaAppMain : Registered
+2025-11-13 15:14:20,113 WARN  [main] o.e.controller.SocialMediaAppMain : Register failed
+2025-11-13 15:14:20,144 INFO  [main] o.e.controller.SocialMediaAppMain : Profile updated.
+2025-11-13 15:15:06,619 INFO  [main] o.e.controller.SocialMediaAppMain : Done.
+2025-11-13 15:16:15,330 INFO  [main] o.e.controller.SocialMediaAppMain : None.
+2025-11-13 15:16:15,382 INFO  [main] o.e.controller.SocialMediaAppMain : Sent.
+2025-11-13 15:16:15,403 INFO  [main] o.e.controller.SocialMediaAppMain : Accepted.
+2025-11-13 15:17:09,486 INFO  [main] org.mongodb.driver.client : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "5.1.0"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/23.0.2+7-58"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@8851ce1, com.mongodb.Jep395RecordCodecProvider@2d9dff65, com.mongodb.KotlinCodecProvider@5ef6fd7f]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-11-13 15:17:09,506 INFO  [cluster-ClusterId{value='6915a91d01a3eb3a6ab1ff06', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=27, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=23870900}
+2025-11-13 15:17:09,917 INFO  [main] o.e.controller.SocialMediaAppMain : Nothing here.
+2025-11-13 15:17:09,959 INFO  [main] o.e.controller.SocialMediaAppMain : Posted.
+2025-11-13 15:17:09,984 INFO  [main] o.e.controller.SocialMediaAppMain : Comment added.
+2025-11-13 15:17:10,002 INFO  [main] o.e.controller.SocialMediaAppMain : Liked.
+2025-11-13 15:17:10,022 INFO  [main] o.e.controller.SocialMediaAppMain : No posts.
+2025-11-13 15:19:23,034 INFO  [main] org.mongodb.driver.client : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "5.1.0"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/23.0.2+7-58"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@3932c79a, com.mongodb.Jep395RecordCodecProvider@782859e, com.mongodb.KotlinCodecProvider@23f5b5dc]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-11-13 15:19:23,056 INFO  [cluster-ClusterId{value='6915a9a2a04b070320882336', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=27, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=20211500}
+2025-11-13 15:19:23,473 INFO  [main] o.e.controller.SocialMediaAppMain : === SOCIAL MEDIA APP ===
+2025-11-13 15:19:23,473 INFO  [main] o.e.controller.SocialMediaAppMain : 
+2025-11-13 15:19:23,473 INFO  [main] o.e.controller.SocialMediaAppMain : 1. Register
+2025-11-13 15:19:23,474 INFO  [main] o.e.controller.SocialMediaAppMain : 2. Login
+2025-11-13 15:19:23,474 INFO  [main] o.e.controller.SocialMediaAppMain : 3. Forgot Password
+2025-11-13 15:19:23,474 INFO  [main] o.e.controller.SocialMediaAppMain : 4. Exit
+2025-11-13 15:19:23,474 INFO  [main] o.e.controller.SocialMediaAppMain : Choice: 
+2025-11-13 15:24:03,773 INFO  [main] o.e.controller.SocialMediaAppMain : Logged in.
+2025-11-13 15:24:03,782 WARN  [main] o.e.controller.SocialMediaAppMain : Login failed.
+2025-11-13 15:24:03,840 INFO  [main] o.e.controller.SocialMediaAppMain : Profile:
+2025-11-13 15:24:03,883 INFO  [main] o.e.controller.SocialMediaAppMain : Profile added.
+2025-11-13 15:24:03,927 INFO  [main] o.e.controller.SocialMediaAppMain : Registered
+2025-11-13 15:24:03,928 WARN  [main] o.e.controller.SocialMediaAppMain : Register failed
+2025-11-13 15:24:03,961 INFO  [main] o.e.controller.SocialMediaAppMain : Profile updated.
+2025-11-13 15:26:08,277 INFO  [main] o.e.controller.SocialMediaAppMain : Sent.
+2025-11-13 15:33:54,143 WARN  [main] o.e.controller.SocialMediaAppMain : Invalid OTP!
+2025-11-13 18:25:25,820 INFO  [main] o.e.controller.SocialMediaAppMain : Done.
+2025-11-13 18:25:25,941 INFO  [main] o.e.controller.SocialMediaAppMain : None.
+2025-11-13 18:25:25,966 INFO  [main] o.e.controller.SocialMediaAppMain : Accepted.
+2025-11-13 18:25:25,985 INFO  [main] o.e.controller.SocialMediaAppMain : Sent.
+2025-11-13 18:25:26,240 INFO  [main] org.mongodb.driver.client : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "5.1.0"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/23.0.2+7-58"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@388623ad, com.mongodb.Jep395RecordCodecProvider@91f565d, com.mongodb.KotlinCodecProvider@46e3559f]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-11-13 18:25:26,258 INFO  [cluster-ClusterId{value='6915d53ec0b6022deef4c16b', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=27, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=25815200}
+2025-11-13 18:25:26,270 INFO  [main] o.e.controller.SocialMediaAppMain : Nothing here.
+2025-11-13 18:25:26,288 INFO  [main] o.e.controller.SocialMediaAppMain : Posted.
+2025-11-13 18:25:26,317 INFO  [main] o.e.controller.SocialMediaAppMain : Comment added.
+2025-11-13 18:25:26,332 INFO  [main] o.e.controller.SocialMediaAppMain : Liked.
+2025-11-13 18:25:26,348 INFO  [main] o.e.controller.SocialMediaAppMain : No posts.
+2025-11-13 18:25:26,403 INFO  [main] o.e.controller.SocialMediaAppMain : Logged in.
+2025-11-13 18:25:26,407 WARN  [main] o.e.controller.SocialMediaAppMain : Login failed.
+2025-11-13 18:25:26,440 INFO  [main] o.e.controller.SocialMediaAppMain : Profile:
+2025-11-13 18:25:26,472 INFO  [main] o.e.controller.SocialMediaAppMain : Profile added.
+2025-11-13 18:25:26,505 INFO  [main] o.e.controller.SocialMediaAppMain : Registered
+2025-11-13 18:25:26,505 WARN  [main] o.e.controller.SocialMediaAppMain : Register failed
+2025-11-13 18:25:26,537 INFO  [main] o.e.controller.SocialMediaAppMain : Profile updated.
+2025-11-13 18:26:59,234 INFO  [main] org.mongodb.driver.client : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "5.1.0"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/23.0.2+7-58"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@5633ed82, com.mongodb.Jep395RecordCodecProvider@767191b1, com.mongodb.KotlinCodecProvider@34d52ecd]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-11-13 18:26:59,264 INFO  [cluster-ClusterId{value='6915d59b8e8307709c15054e', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=27, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=30187200}
+2025-11-13 18:26:59,840 INFO  [main] o.e.controller.SocialMediaAppMain : Nothing here.
+2025-11-13 18:26:59,895 INFO  [main] o.e.controller.SocialMediaAppMain : Posted.
+2025-11-13 18:26:59,940 INFO  [main] o.e.controller.SocialMediaAppMain : Comment added.
+2025-11-13 18:26:59,970 INFO  [main] o.e.controller.SocialMediaAppMain : Liked.
+2025-11-13 18:26:59,996 INFO  [main] o.e.controller.SocialMediaAppMain : No posts.
+2025-11-13 18:40:04,856 INFO  [main] org.mongodb.driver.client : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "5.1.0"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/23.0.2+7-58"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@1937eaff, com.mongodb.Jep395RecordCodecProvider@7e0bc8a3, com.mongodb.KotlinCodecProvider@4b0f2299]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-11-13 18:40:04,911 INFO  [cluster-ClusterId{value='6915d8ac92ebb73f4950894e', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=27, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=38704700}
+2025-11-13 18:40:05,471 INFO  [main] o.e.controller.SocialMediaAppMain : Nothing here.
+2025-11-13 18:40:05,521 INFO  [main] o.e.controller.SocialMediaAppMain : Posted.
+2025-11-13 18:40:05,554 INFO  [main] o.e.controller.SocialMediaAppMain : Comment added.
+2025-11-13 18:40:05,578 INFO  [main] o.e.controller.SocialMediaAppMain : Liked.
+2025-11-13 18:40:05,600 INFO  [main] o.e.controller.SocialMediaAppMain : No posts.
+2025-11-13 18:40:15,872 INFO  [main] org.mongodb.driver.client : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "5.1.0"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/23.0.2+7-58"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@5633ed82, com.mongodb.Jep395RecordCodecProvider@767191b1, com.mongodb.KotlinCodecProvider@34d52ecd]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-11-13 18:40:15,898 INFO  [cluster-ClusterId{value='6915d8b7849ff736d3a8836d', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=27, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=26424600}
+2025-11-13 18:40:16,381 INFO  [main] o.e.controller.SocialMediaAppMain : Nothing here.
+2025-11-13 18:40:16,425 INFO  [main] o.e.controller.SocialMediaAppMain : Posted.
+2025-11-13 18:40:16,455 INFO  [main] o.e.controller.SocialMediaAppMain : Comment added.
+2025-11-13 18:40:16,477 INFO  [main] o.e.controller.SocialMediaAppMain : Liked.
+2025-11-13 18:40:16,501 INFO  [main] o.e.controller.SocialMediaAppMain : No posts.
+2025-11-13 18:41:54,444 INFO  [main] o.e.controller.SocialMediaAppMain : None.
+2025-11-13 18:41:54,517 INFO  [main] o.e.controller.SocialMediaAppMain : Accepted.
+2025-11-13 18:41:54,545 INFO  [main] o.e.controller.SocialMediaAppMain : Sent.
+2025-11-13 18:53:12,034 INFO  [main] o.e.controller.SocialMediaAppMain : Logged in
+2025-11-13 18:53:12,049 WARN  [main] o.e.controller.SocialMediaAppMain : Login failed
+2025-11-13 18:53:12,129 INFO  [main] o.e.controller.SocialMediaAppMain : Profile:
+2025-11-13 18:53:12,187 INFO  [main] o.e.controller.SocialMediaAppMain : Profile added
+2025-11-13 18:53:12,245 INFO  [main] o.e.controller.SocialMediaAppMain : Registered
+2025-11-13 18:53:12,246 WARN  [main] o.e.controller.SocialMediaAppMain : Register failed
+2025-11-13 18:53:12,289 INFO  [main] o.e.controller.SocialMediaAppMain : Profile updated
+2025-11-13 18:57:27,737 INFO  [main] org.mongodb.driver.client : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "5.1.0"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/23.0.2+7-58"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@3932c79a, com.mongodb.Jep395RecordCodecProvider@782859e, com.mongodb.KotlinCodecProvider@23f5b5dc]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-11-13 18:57:27,761 INFO  [cluster-ClusterId{value='6915dcbfdef6eb71857ea12c', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=27, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=22426900}
+2025-11-13 18:57:28,252 INFO  [main] o.e.controller.SocialMediaAppMain : ==^^^^ SOCIAL MEDIA APP ^^^^==
+2025-11-13 18:57:28,252 INFO  [main] o.e.controller.SocialMediaAppMain : 
+2025-11-13 18:57:28,252 INFO  [main] o.e.controller.SocialMediaAppMain : 1. Register
+2025-11-13 18:57:28,252 INFO  [main] o.e.controller.SocialMediaAppMain : 2. Login
+2025-11-13 18:57:28,252 INFO  [main] o.e.controller.SocialMediaAppMain : 3. Forgot Password
+2025-11-13 18:57:28,252 INFO  [main] o.e.controller.SocialMediaAppMain : 4. Exit
+2025-11-13 18:57:28,252 INFO  [main] o.e.controller.SocialMediaAppMain : Choice: 
+2025-11-13 18:57:44,152 INFO  [main] org.mongodb.driver.client : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "5.1.0"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/23.0.2+7-58"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@3932c79a, com.mongodb.Jep395RecordCodecProvider@782859e, com.mongodb.KotlinCodecProvider@23f5b5dc]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-11-13 18:57:44,177 INFO  [cluster-ClusterId{value='6915dcd008c0822ade0a1024', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=27, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=25327400}
+2025-11-13 18:57:44,742 INFO  [main] o.e.controller.SocialMediaAppMain : ==^^^^ SOCIAL MEDIA APP ^^^^==
+2025-11-13 18:57:44,743 INFO  [main] o.e.controller.SocialMediaAppMain : 1. Register
+2025-11-13 18:57:44,743 INFO  [main] o.e.controller.SocialMediaAppMain : 2. Login
+2025-11-13 18:57:44,744 INFO  [main] o.e.controller.SocialMediaAppMain : 3. Forgot Password
+2025-11-13 18:57:44,744 INFO  [main] o.e.controller.SocialMediaAppMain : 4. Exit
+2025-11-13 18:57:44,744 INFO  [main] o.e.controller.SocialMediaAppMain : Choice: 
+2025-11-13 19:08:07,536 INFO  [main] o.e.controller.SocialMediaAppMain : Username: 
+2025-11-13 19:08:14,251 INFO  [main] o.e.controller.SocialMediaAppMain : Password: 
+2025-11-13 19:08:18,035 INFO  [main] o.e.controller.SocialMediaAppMain : Logged in
+2025-11-13 19:08:18,036 INFO  [main] o.e.controller.SocialMediaAppMain : Welcome charanreddy
+2025-11-13 19:08:18,036 INFO  [main] o.e.controller.SocialMediaAppMain : 
+2025-11-13 19:08:18,036 INFO  [main] o.e.controller.SocialMediaAppMain : === Menu (charanreddy) ===
+2025-11-13 19:08:18,036 INFO  [main] o.e.controller.SocialMediaAppMain : 1. View Profile
+2025-11-13 19:08:18,036 INFO  [main] o.e.controller.SocialMediaAppMain : 2. Create Profile
+2025-11-13 19:08:18,036 INFO  [main] o.e.controller.SocialMediaAppMain : 3. Update Profile
+2025-11-13 19:08:18,036 INFO  [main] o.e.controller.SocialMediaAppMain : 4. Send Friend Request
+2025-11-13 19:08:18,037 INFO  [main] o.e.controller.SocialMediaAppMain : 5. View Pending Requests
+2025-11-13 19:08:18,037 INFO  [main] o.e.controller.SocialMediaAppMain : 6. Accept Friend Request
+2025-11-13 19:08:18,037 INFO  [main] o.e.controller.SocialMediaAppMain : 7. Follow User
+2025-11-13 19:08:18,037 INFO  [main] o.e.controller.SocialMediaAppMain : 8. Unfollow User
+2025-11-13 19:08:18,037 INFO  [main] o.e.controller.SocialMediaAppMain : 9. View Followers
+2025-11-13 19:08:18,037 INFO  [main] o.e.controller.SocialMediaAppMain : 10. View Following
+2025-11-13 19:08:18,037 INFO  [main] o.e.controller.SocialMediaAppMain : 11. Create Post
+2025-11-13 19:08:18,037 INFO  [main] o.e.controller.SocialMediaAppMain : 12. View All Posts
+2025-11-13 19:08:18,037 INFO  [main] o.e.controller.SocialMediaAppMain : 13. View Personalized Feed
+2025-11-13 19:08:18,037 INFO  [main] o.e.controller.SocialMediaAppMain : 14. Like a Post
+2025-11-13 19:08:18,037 INFO  [main] o.e.controller.SocialMediaAppMain : 15. Comment on a Post
+2025-11-13 19:08:18,037 INFO  [main] o.e.controller.SocialMediaAppMain : 16. Logout
+2025-11-13 19:08:18,037 INFO  [main] o.e.controller.SocialMediaAppMain : Choice: 
+2025-11-13 19:08:30,596 INFO  [main] o.e.controller.SocialMediaAppMain : Logged out.
+2025-11-13 19:08:30,597 INFO  [main] o.e.controller.SocialMediaAppMain : 1. Register
+2025-11-13 19:08:30,597 INFO  [main] o.e.controller.SocialMediaAppMain : 2. Login
+2025-11-13 19:08:30,597 INFO  [main] o.e.controller.SocialMediaAppMain : 3. Forgot Password
+2025-11-13 19:08:30,597 INFO  [main] o.e.controller.SocialMediaAppMain : 4. Exit
+2025-11-13 19:08:30,597 INFO  [main] o.e.controller.SocialMediaAppMain : Choice: 
+2025-11-13 19:08:32,228 INFO  [main] o.e.controller.SocialMediaAppMain : Enter username: 
+2025-11-13 19:08:40,680 INFO  [main] o.e.controller.SocialMediaAppMain : Enter OTP:
+2025-11-13 19:08:48,174 WARN  [main] o.e.controller.SocialMediaAppMain : Wrong OTP
+2025-11-13 19:08:48,175 INFO  [main] o.e.controller.SocialMediaAppMain : 1. Register
+2025-11-13 19:08:48,175 INFO  [main] o.e.controller.SocialMediaAppMain : 2. Login
+2025-11-13 19:08:48,175 INFO  [main] o.e.controller.SocialMediaAppMain : 3. Forgot Password
+2025-11-13 19:08:48,175 INFO  [main] o.e.controller.SocialMediaAppMain : 4. Exit
+2025-11-13 19:08:48,175 INFO  [main] o.e.controller.SocialMediaAppMain : Choice: 
+2025-11-13 19:09:17,307 INFO  [main] o.e.controller.SocialMediaAppMain : Enter username: 
+2025-11-13 19:09:28,277 INFO  [main] o.e.controller.SocialMediaAppMain : Enter OTP:
+2025-11-13 19:09:58,054 WARN  [main] o.e.controller.SocialMediaAppMain : Wrong OTP
+2025-11-13 19:09:58,054 INFO  [main] o.e.controller.SocialMediaAppMain : 1. Register
+2025-11-13 19:09:58,054 INFO  [main] o.e.controller.SocialMediaAppMain : 2. Login
+2025-11-13 19:09:58,054 INFO  [main] o.e.controller.SocialMediaAppMain : 3. Forgot Password
+2025-11-13 19:09:58,054 INFO  [main] o.e.controller.SocialMediaAppMain : 4. Exit
+2025-11-13 19:09:58,054 INFO  [main] o.e.controller.SocialMediaAppMain : Choice: 
+2025-11-13 19:20:04,598 INFO  [main] o.e.controller.SocialMediaAppMain : Username: 
+2025-11-13 19:20:13,894 INFO  [main] o.e.controller.SocialMediaAppMain : Full Name: 
+2025-11-13 19:20:26,006 INFO  [main] o.e.controller.SocialMediaAppMain : Email: 
+2025-11-13 19:21:00,165 INFO  [main] o.e.controller.SocialMediaAppMain : Password: 
+2025-11-13 19:21:05,824 INFO  [main] o.e.controller.SocialMediaAppMain : Registered
+2025-11-13 19:21:05,824 INFO  [main] o.e.controller.SocialMediaAppMain : 1. Register
+2025-11-13 19:21:05,824 INFO  [main] o.e.controller.SocialMediaAppMain : 2. Login
+2025-11-13 19:21:05,824 INFO  [main] o.e.controller.SocialMediaAppMain : 3. Forgot Password
+2025-11-13 19:21:05,825 INFO  [main] o.e.controller.SocialMediaAppMain : 4. Exit
+2025-11-13 19:21:05,825 INFO  [main] o.e.controller.SocialMediaAppMain : Choice: 
+2025-11-13 19:21:13,441 INFO  [main] o.e.controller.SocialMediaAppMain : Enter username: 
+2025-11-13 19:21:21,205 INFO  [main] o.e.controller.SocialMediaAppMain : Enter OTP:
+2025-11-13 19:25:34,869 INFO  [main] o.e.controller.SocialMediaAppMain : New password:
+2025-11-13 19:25:47,466 INFO  [main] o.e.controller.SocialMediaAppMain : Confirm:
+2025-11-13 19:25:52,941 INFO  [main] o.e.controller.SocialMediaAppMain : Password updated
+2025-11-13 19:25:52,941 INFO  [main] o.e.controller.SocialMediaAppMain : 1. Register
+2025-11-13 19:25:52,941 INFO  [main] o.e.controller.SocialMediaAppMain : 2. Login
+2025-11-13 19:25:52,941 INFO  [main] o.e.controller.SocialMediaAppMain : 3. Forgot Password
+2025-11-13 19:25:52,941 INFO  [main] o.e.controller.SocialMediaAppMain : 4. Exit
+2025-11-13 19:25:52,941 INFO  [main] o.e.controller.SocialMediaAppMain : Choice: 
+2025-11-13 19:33:52,922 INFO  [main] o.e.controller.SocialMediaAppMain : Logged in
+2025-11-13 19:33:52,927 WARN  [main] o.e.controller.SocialMediaAppMain : Login failed
+2025-11-13 19:33:52,977 INFO  [main] o.e.controller.SocialMediaAppMain : Registered
+2025-11-13 19:33:52,977 WARN  [main] o.e.controller.SocialMediaAppMain : Register failed
+2025-11-13 19:33:53,022 INFO  [main] o.e.controller.SocialMediaAppMain : Profile:
+2025-11-13 19:33:53,061 INFO  [main] o.e.controller.SocialMediaAppMain : Profile added
+2025-11-13 19:33:53,102 INFO  [main] o.e.controller.SocialMediaAppMain : Profile updated
