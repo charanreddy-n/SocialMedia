@@ -1,21 +1,20 @@
 package org.example.controller;
 
-import org.example.service.FollowerService;
-import org.example.service.FriendRequestService;
-import org.example.service.PostService;
-import org.example.service.UserService;
+import org.example.service.*;
 
 import java.util.Scanner;
 
+
 public class SocialMediaAppMain {
     private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SocialMediaAppMain.class);
-    private static final PostService postService = new PostService();
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         UserService userService = new UserService();
-        FollowerService followService = new FollowerService();
+        FollowerService fol = new FollowerService();
         FriendRequestService friendService = new FriendRequestService();
+        PostService post = new PostService();
+        MessageService msg = new MessageService();
 
         String loggedUser = null;
         int choice;
@@ -35,7 +34,6 @@ public class SocialMediaAppMain {
                 sc.nextLine();
 
                 switch (choice) {
-
                     case 1:
                         log.info("Username: ");
                         String u = sc.nextLine();
@@ -67,20 +65,15 @@ public class SocialMediaAppMain {
                         break;
 
                     case 4:
-                        log.info("Goodbye.");
+                        log.info("Goodbye");
                         return;
 
                     default:
-                        log.warn("Invalid.");
+                        log.warn("Invalid");
                 }
 
-            } else {
-
-                // ---------------------------
-                // SOCIAL MENU
-                // ---------------------------
-
-                log.info("");
+            }
+            else {
                 log.info("*** Menu (" + loggedUser + ") ***");
                 log.info("1. View Profile");
                 log.info("2. Create Profile");
@@ -92,12 +85,10 @@ public class SocialMediaAppMain {
                 log.info("8. Unfollow User");
                 log.info("9. View Followers");
                 log.info("10. View Following");
-                log.info("11. Create Post");
-                log.info("12. View All Posts");
-                log.info("13. View Personalized Feed");
-                log.info("14. Like a Post");
-                log.info("15. Comment on a Post");
-                log.info("16. Logout");
+                log.info("11. Send Message");
+                log.info("12. View Chat");
+                log.info("13. Posts Menu");
+                log.info("14. Logout");
 
                 log.info("Choice: ");
                 choice = sc.nextInt();
@@ -145,52 +136,84 @@ public class SocialMediaAppMain {
                     case 7:
                         log.info("Follow username: ");
                         String fUser = sc.nextLine();
-                        followService.followUser(loggedUser, fUser);
+                        fol.followUser(loggedUser, fUser);
                         break;
 
                     case 8:
                         log.info("Unfollow username: ");
                         String ufUser = sc.nextLine();
-                        followService.unfollowUser(loggedUser, ufUser);
+                        fol.unfollowUser(loggedUser, ufUser);
                         break;
 
                     case 9:
-                        followService.showFollowers(loggedUser);
+                        fol.showFollowers(loggedUser);
                         break;
 
                     case 10:
-                        followService.showFollowing(loggedUser);
+                        fol.showFollowing(loggedUser);
                         break;
 
                     case 11:
-                        log.info("Write post: ");
+                        log.info("To:");
+                        String too = sc.nextLine();
+                        log.info("Msg:");
                         String txt = sc.nextLine();
-                        postService.createPost(loggedUser, txt);
+                        msg.sendMsg(loggedUser, too, txt);
                         break;
 
                     case 12:
-                        postService.viewFeed();
+                        log.info("With:");
+                        String chat = sc.nextLine();
+                        msg.showChat(loggedUser, chat);
                         break;
 
                     case 13:
-                        postService.viewPersonalizedFeed(loggedUser);
+                        while (true) {
+                            log.info("--- Posts Menu ---");
+                            log.info("1. Create Post");
+                            log.info("2. View All Posts");
+                            log.info("3. View Personalized Feed");
+                            log.info("4. Like Post");
+                            log.info("5. Comment on Post");
+                            log.info("6. Back");
+
+                            log.info("Choice: ");
+                            int pc = sc.nextInt();
+                            sc.nextLine();
+
+                            if (pc == 1) {
+                                log.info("Write your post: ");
+                                String ptxt = sc.nextLine();
+                                post.createPost(loggedUser, ptxt);
+                            }
+                            else if (pc == 2) {
+                                post.viewFeed();
+                            }
+                            else if (pc == 3) {
+                                post.viewPersonalizedFeed(loggedUser);
+                            }
+                            else if (pc == 4) {
+                                log.info("Post ID: ");
+                                String pid = sc.nextLine();
+                                post.likePost(pid, loggedUser);
+                            }
+                            else if (pc == 5) {
+                                log.info("Post ID: ");
+                                String cid = sc.nextLine();
+                                log.info("Comment: ");
+                                String com = sc.nextLine();
+                                post.commentOnPost(cid, loggedUser, com);
+                            }
+                            else if (pc == 6) {
+                                break;
+                            }
+                            else {
+                                log.warn("Invalid");
+                            }
+                        }
                         break;
 
                     case 14:
-                        log.info("Post ID: ");
-                        String likeId = sc.nextLine();
-                        postService.likePost(likeId, loggedUser);
-                        break;
-
-                    case 15:
-                        log.info("Post ID: ");
-                        String cid = sc.nextLine();
-                        log.info("Comment: ");
-                        String ct = sc.nextLine();
-                        postService.commentOnPost(cid, loggedUser, ct);
-                        break;
-
-                    case 16:
                         log.info("Logged out");
                         loggedUser = null;
                         break;

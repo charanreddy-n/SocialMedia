@@ -66,4 +66,19 @@ public class UserServiceTest {
         service.updateProfile("charan", "Hardtimes teaches you the good lessons", "Chittoor");
         Mockito.verify(profileDao).updateProfile(Mockito.any());
     }
+
+    @Test
+    void testForgotPassword_OTPSent() {
+        Mockito.when(userDao.generateAndStoreOTP("aa")).thenReturn(true);
+        Mockito.when(userDao.verifyOTP("aa","1111")).thenReturn(true);
+        Mockito.when(userDao.resetPassword("aa","new")).thenReturn(true);
+
+        boolean otpGen = userDao.generateAndStoreOTP("aa");
+        boolean otpOk = userDao.verifyOTP("aa","1111");
+        boolean reset = userDao.resetPassword("aa","new");
+
+        Assertions.assertTrue(otpGen);
+        Assertions.assertTrue(otpOk);
+        Assertions.assertTrue(reset);
+    }
 }

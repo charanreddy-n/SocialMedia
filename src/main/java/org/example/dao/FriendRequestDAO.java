@@ -9,6 +9,7 @@ public interface FriendRequestDAO {
     List<FriendRequest> getPendingRequests(int userId);
 
     boolean acceptRequest(int requestId);
+    boolean isFriends(int u1, int u2);
 
     FriendRequest getRequestById(int requestId);
 }

@@ -13,14 +13,17 @@ import java.util.List;
 
 public class FriendRequestDAOImpl implements FriendRequestDAO {
     private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SocialMediaAppMain.class);
+    private  Connection con;
 
-    public FriendRequestDAOImpl() {}
+    public FriendRequestDAOImpl() {
+        con = DBConnection.getConnection();
+    }
 
     @Override
     public boolean sendRequest(FriendRequest req) {
         String sql = "INSERT INTO friend_requests (sender_id, receiver_id, status) VALUES (?, ?, 'PENDING')";
 
-        try (Connection con = DBConnection.getConnection();
+        try (
              PreparedStatement ps = con.prepareStatement(sql)) {
 
             ps.setInt(1, req.getSenderId());
@@ -40,7 +43,7 @@ public class FriendRequestDAOImpl implements FriendRequestDAO {
         List<FriendRequest> list = new ArrayList<>();
         String sql = "SELECT * FROM friend_requests WHERE receiver_id = ? AND status = 'PENDING'";
 
-        try (Connection con = DBConnection.getConnection();
+        try (
              PreparedStatement ps = con.prepareStatement(sql)) {
 
             ps.setInt(1, userId);
@@ -67,7 +70,7 @@ public class FriendRequestDAOImpl implements FriendRequestDAO {
     public FriendRequest getRequestById(int requestId) {
         String sql = "SELECT * FROM friend_requests WHERE request_id = ?";
 
-        try (Connection con = DBConnection.getConnection();
+        try (
              PreparedStatement ps = con.prepareStatement(sql)) {
 
             ps.setInt(1, requestId);
@@ -86,7 +89,6 @@ public class FriendRequestDAOImpl implements FriendRequestDAO {
         } catch (SQLException e) {
             log.error(e.getMessage());
         }
-
         return null;
     }
 
@@ -94,7 +96,7 @@ public class FriendRequestDAOImpl implements FriendRequestDAO {
     public boolean acceptRequest(int requestId) {
         String sql = "UPDATE friend_requests SET status = 'ACCEPTED' WHERE request_id = ?";
 
-        try (Connection con = DBConnection.getConnection();
+        try (
              PreparedStatement ps = con.prepareStatement(sql)) {
 
             ps.setInt(1, requestId);
@@ -105,4 +107,29 @@ public class FriendRequestDAOImpl implements FriendRequestDAO {
             return false;
         }
     }
+
+    @Override
+    public boolean isFriends(int u1, int u2) {
+
+        String q = "SELECT * FROM friend_requests " +
+                "WHERE ((sender_id=? AND receiver_id=?) " +
+                "OR (sender_id=? AND receiver_id=?)) " +
+                "AND status='ACCEPTED'";
+
+        try (PreparedStatement ps = con.prepareStatement(q)) {
+
+            ps.setInt(1, u1);
+            ps.setInt(2, u2);
+            ps.setInt(3, u2);
+            ps.setInt(4, u1);
+
+            ResultSet rs = ps.executeQuery();
+            return rs.next();
+
+        } catch (Exception e) {
+            log.info(e.getMessage());
+            return false;
+        }
+    }
+
 }

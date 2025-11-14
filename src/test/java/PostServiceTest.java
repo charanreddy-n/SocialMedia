@@ -26,7 +26,7 @@ public class PostServiceTest {
 
     @Test
     void testCreatePost() {
-        service.createPost("charan", "Where ever you... Network follow you..");
+        service.createPost("charan", "Where ever you go... Network follow you..");
         Mockito.verify(postDao).createPost(Mockito.any());
     }
 

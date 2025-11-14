@@ -30,10 +30,16 @@ public class FriendRequestService {
             return;
         }
 
+        List<String> following = userDao.getFollowingUsernames(from);
+        if (following.contains(to)) {
+            log.info("Already following");
+            return;
+        }
+
         if (reqDao.sendRequest(new FriendRequest(s, r, "PENDING")))
             log.info("Sent");
         else
-            log.warn("Failed");
+            log.info("Failed");
     }
 
     public void viewPendingRequests(String user) {

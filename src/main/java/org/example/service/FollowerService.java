@@ -1,11 +1,9 @@
 package org.example.service;
 
 import org.example.controller.SocialMediaAppMain;
-import org.example.dao.FollowerDAO;
-import org.example.dao.FollowerDAOImpl;
-import org.example.dao.UserDAO;
-import org.example.dao.UserDAOImpl;
+import org.example.dao.*;
 import org.example.model.Follower;
+import org.example.model.FriendRequest;
 
 import java.util.List;
 
@@ -15,6 +13,7 @@ public class FollowerService {
 
     private FollowerDAO followDao = new FollowerDAOImpl();
     private  UserDAO userDao = new UserDAOImpl();
+    private FriendRequestDAO reqDao = new FriendRequestDAOImpl();
 
     public void followUser(String user, String other) {
         int f1 = userDao.getUserIdByUsername(user);
@@ -30,6 +29,15 @@ public class FollowerService {
             return;
         }
 
+        List<FriendRequest> list = reqDao.getPendingRequests(f2);
+
+        boolean sent = list.stream()
+                .anyMatch(r -> r.getSenderId() == f1);
+
+        if (sent) {
+            log.info("You already sent a request. Wait.");
+            return;
+        }
         followDao.followUser(new Follower(f1, f2));
     }
 
